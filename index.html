@@ -12,6 +12,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .banner {
+        background-color: purple;
+        width: 300px;
+        height: 300px;
+
+        transition: transform 2s;
+      }
+      .banner:hover {
+        transform: matrix(1, 2, 3, 4, 5, 6);
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -27,14 +39,15 @@
 
       <!-- banner section start here -->
       <section>
-        <div>
+        <div class="banner">
           <h1>text</h1>
         </div>
       </section>
     </header>
     <main>
+      <h2>this</h2>
       <!-- about me section start here -->
-      <section class="aboutMe" style="color: white">
+      <section class="aboutMe" style="color: rgb(118, 12, 12)">
         <h2>About me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, autem?
